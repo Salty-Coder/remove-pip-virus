@@ -26,6 +26,8 @@ if not control:
 
 pkg1 = os.popen('pip list | findstr adm4').read() # Active package
 pkg2 = os.popen('pip list | findstr admcheck').read() # Banned package
+pkg3 = os.popen('pip list | findstr adm3').read() # Banned package
+pkg4 = os.popen('pip list | findstr admcheck2').read() # Banned package
 
 
 
@@ -111,7 +113,7 @@ def exterminate(type):
 
 
 
-if pkg1 or pkg2:
+if pkg1 or pkg2 or pkg3 or pkg4:
     print("1 or more malicious packages are installed. Preparing to exterminate...")
     exterminate(1)
 else:
