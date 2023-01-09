@@ -1,5 +1,5 @@
 # remove-pip-virus
- remove silly virus made by silly roblox kid ixEcIipse
+ remove silly virus made by silly man ixEcIipse
  
 *This program is designed for **WINDOWS ONLY***
 
